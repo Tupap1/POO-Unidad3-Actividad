@@ -1,3 +1,10 @@
+public interface OpBancariaISP {
+    void transferencia(String origen, String destino, double monto);
+    void retiro(String cuenta, double monto);
+    void pago(String cuenta, double monto);
+    
+}
+
 
     interface interTransferencia {
         void transferencia(String origen, String destino, double monto);
@@ -13,6 +20,7 @@
 
 
 
+@SuppressWarnings("unused")
 class OperacionesBancarias implements interTransferencia, interRetiro, interPago {
     @Override
     public void transferencia(String origen, String destino, double monto) {
