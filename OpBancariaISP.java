@@ -1,10 +1,3 @@
-/*     public interface OpBancarias {
-        void transferencia(String origen, String destino, double monto);
-        void retiro(String cuenta, double monto);
-        void pago(String cuenta, double monto);
-        
-    }     */
-
 
     interface interTransferencia {
         void transferencia(String origen, String destino, double monto);
@@ -40,11 +33,11 @@ class OperacionesBancarias implements interTransferencia, interRetiro, interPago
 
 }
 
-class Main {
+/* class Main {
     public static void main(String[] args) {
         OperacionesBancarias operacionesBancarias = new OperacionesBancarias();
         operacionesBancarias.transferencia("cuenta1", "cuenta2", 1000);
         operacionesBancarias.retiro("cuenta3", 500);
         operacionesBancarias.pago("cuenta4", 2000);
     }
-}
+} */

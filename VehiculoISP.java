@@ -1,3 +1,5 @@
+
+
 /* interface interVehiculo{
     void conducir();
     void cargar();
@@ -28,11 +30,10 @@ interface interCargar{
     }
 }
 
-/* public class Main {
+public class VehiculoISP {
     public static void main(String[] args) {
         Vehiculo vehiculo = new Vehiculo();
         vehiculo.conducir("Casa");
         vehiculo.cargar(50);
     }
-    
-} */
+}

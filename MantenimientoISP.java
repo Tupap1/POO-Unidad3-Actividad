@@ -1,3 +1,4 @@
+
 interface interfaceLimpieza {
     void limpieza(String lugar);
     
@@ -9,7 +10,7 @@ interface interfaceReparacion {
 }
 
 
-class Mantenimiento implements interfaceLimpieza, interfaceReparacion {
+class MantenimientoISP implements interfaceLimpieza, interfaceReparacion {
 /*     interface interfaceMantenimiento{
         public void mantenimiento();
         public void reparacion();
